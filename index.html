@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="images/girl.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="menu">
+                <div class="logo">
+                    <a href="#home"><h2>Gehad</h2></a>
+                </div>
+                <div class="list" id="list">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="toggle">
+                        <div class="bars" id="bar1"></div>
+                        <div class="bars" id="bar2"></div>
+                        <div class="bars" id="bar3"></div>
+                    </label>
+                </div>
+            </div>
+            <div class="links" id="links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#about">About</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+        <div class="home animated_section" id="home">
+            <div class="leftSection">
+                <div class="greeting">
+                    <h5>Hey,I'm Gehad</h5>
+                    <img src="/images/12051wavinghandlightskintone_111470.png" alt="hand">
+                </div>
+                <h2><span>Front</span>end</h2> <h2>developer</h2>
+                <p>I'm frontend developer based in Egypt, I'll help you build your beautiful websites your users will love.</p>
+                <div class="btns">
+                    <button onclick="goToSection('Contact')">Contact</button>
+                    <button id="browse" onclick="goToSection('projects')">Browse Projects</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/Devices-bro.png" alt="">
+            </div>
+        </div>
+        <div class="introduction animated_section" id="about">
+            <div class="head">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <img src="images/Typing-bro.png" alt="">
+                </div>
+                <div class="right">
+                    <p> I'm a developer experienced in building websites for small and medium-sized businesses. Whether you’re trying to win work, list your services, or
+                        create a new online store, I can help. Knows HTML and CSS3, JavaScript,
+                        Bootstrap,React js. Full project management from start to finish. Regular
+                        communication is important to me, so let's keep in touch.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="projects animated_section" id="projects">
+            <h3>Projects</h3>
+            <div class="cards">
+                <div class="card">
+                    <h4>Ecommerce System website</h4>
+                    <p>Ecommerce System website: Using React js , Routing , API and Local Storage.</p>
+                    <a href="https://ecommerce-theta-vert.vercel.app/">Go to website</a>
+                </div>
+                <div class="card">
+                    <h4>Educational courses website</h4>
+                    <p>Educational courses website: facilitate dealing with teachers and students.</p>
+                    <a href="https://educational-website-chi.vercel.app/">Go to website</a>
+                </div>
+                <div class="card">
+                    <h4>Brain Diseases Detection.</h4>
+                    <p>Brain diseases detection website: let the patient to input his x-ray and the website will give him the result.</p>
+                    <a href="https://braindiseases.netlify.app/">Go to website</a>
+                </div>
+                <div class="card">
+                    <h4>CRUDS Sytsem Website.</h4>
+                    <p>CRUDS Sytsem Website: it's a website to create , display , update , delete and seacrh about data using local storage</p>
+                    <a href="https://crudssystem.netlify.app/">Go to website</a>
+                </div>
+                <div class="card">
+                    <h4>Quraan Operator Website.</h4>
+                    <p>Quraan operator: it's a website which let the listner to listen to many readers of Holy Quran</p>
+                    <a href="https://quraan-operator.vercel.app/">Go to website</a>
+                </div>
+                <div class="card">
+                    <h4>Age Calculator Website.</h4>
+                    <p>Age calculator website : it's a website which let the user to calculate his age based on his birthday.</p>
+                    <a href="https://664a868d92f790224488a960--glittery-rugelach-1b31aa.netlify.app/">Go to website</a>
+                </div>
+                <div class="card">
+                    <h4>Weather Website.</h4>
+                    <p>A weather website : it's a website which let the user to know the weather in many cities in the world.</p>
+                    <a href="https://weathertoday7.netlify.app/">Go to website</a>
+                </div>
+            </div>
+        </div>
+        <div class="education animated_section" id="education">
+            <div class="head">
+                <h2>Education & Internship</h2>
+            </div>
+            <div class="content">
+                <div class="leftSide">
+                    <div class="faculty">
+                        <div class="image">
+                            <img src="images/school_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="icon">
+                            <h3>Faculty of Computer and Information 2020 - 2024</h3>
+                        </div>
+                        <p>I started studying at faculty of Computer and
+                            Information Zagazig University at 2020 and i
+                            graduated at June 2024.
+                            I was at Computer Science department.</p>
+                    </div>
+                    <div class="internship">
+                        <div class="image">
+                            <img src="images/school_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="icon">
+                            <h3>The Egypt Youth Digital Initiative April 2024 - October 2024</h3>
+                        </div>
+                        <p>I have benefited from this initiative in more than one
+                            side , not just the technical side,
+                            like : soft skills , English and Freelancing.</p>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <img src="images/Devices-amico.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="contact animated_section"  id="Contact">
+            <div class="head">
+                <h2>Let's Contact</h2>
+            </div>
+            <div class="contactLinks">
+                <a href="https://www.linkedin.com/in/gehad-adel-6699662a3/"><img src="images/linkedin_icon-icons.com_65929.png" alt=""></a>
+                <a href="https://github.com/GehadAdel6111?tab=repositories"><img src="images/github-logo_icon-icons.com_73546.png" alt=""></a>
+                <a href="https://www.upwork.com/freelancers/~015d198a6a3a4c7fe1"><img src="images/upwork_logo_icon_170310.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
